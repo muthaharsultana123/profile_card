@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+.top{
+    position: absolute;
+    height: 106vh;
+    width: 58vw;
+    left: -15rem;
+    top: -15rem;
+    margin-bottom: 20rem;
+    margin-right: 20rem;
+}
+.bottom{
+    position: absolute;
+    height: 98vh;
+    width: 59vw;
+    right: -15rem;
+    bottom: -15rem;
+    margin-top: 20rem;
+    margin-left: 20rem;
+}
+.card{
+    height: 24rem;
+    width: 23rem;
+    background-color:white;
+    border-radius: 1rem;
+    position: relative;
+}
+.part1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card>.part1>img{
+    width: 23rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;    
+}
+.part2>img{
+    position: absolute;
+    border-radius: 50%;
+    top: 6.5rem;
+    left: 8.5rem;
+    border: 5px white solid;
+}
+.text{
+    text-align: center;
+    margin-top: 5rem;
+    color: hsl(225, 14%, 33%);
+    font-weight: 700;
+    font-size: 1rem;
+    
+}
+.text>span{
+    padding-left: 0.5rem;
+    color: hsl(226, 17%, 66%);
+    font-weight : 400;
+    font-size: 1rem;
+}
+.text>p{
+    margin-top: 0.5rem;
+}
+.text>p{
+    color: hsl(226, 17%, 66%);
+    font-weight: 400;
+    font-size: 1rem;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.2rem;
+    height: 1px;
+    width: 23.5vw;
+    background-color: hsl(225, 51%, 86%);
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+}
+.part3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec1,.sec2,.sec3{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: large;
+    color: hsl(225, 14%, 33%);
+}
+.part3>.sec1>span,.part3>.sec2>span,.part3>.sec3>span{
+    font-weight: 400;
+    font-size: x-small;
+    letter-spacing: 1px;
+    margin-top: 0.3rem;
+    
+}
+
+
+
